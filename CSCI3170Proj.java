@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
-class CSCI3170 {
+class CSCI3170Proj {
     public static void main(String[] args) {
         String dbAddress = "jdbc:mysql://projgw.cse.cuhk.edu.hk:2633/db39?autoReconnect=true&useSSL=false";
         String dbUsername = "Group39";
