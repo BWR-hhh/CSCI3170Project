@@ -9,7 +9,7 @@ Group Members:
 - Zhang Juyuan,  1155160257
 
 List of files:  
-- `CSCI3170proj.java`: The main program to communicate with MySQL server
+- `CSCI3170Proj.java`: The main program to communicate with MySQL server
 - `jdbc.jar`: MySQL connector
 
               
@@ -18,11 +18,11 @@ Methods of compilation and execution:
 
 Before compilation:
 
-- Modify `CSCI3170proj.java` to work on other MySQL server environment
-- In Line 17-19:
+- Modify `CSCI3170Proj.java` to work on other MySQL server environment
+- In Line 9-11:
 ```
 String dbAddress = "jdbc:mysql://projgw.cse.cuhk.edu.hk:2633/db15";
-String dbUsername = "Group19";
+String dbUsername = "Group39";
 String dbPassword = "CSCI3170";
 ```
 - Change the above parameters to other environment
@@ -31,7 +31,7 @@ For compilation:
 - The `jdbc.jar` file should be placed in the same directory
 
 For execution:
-- `java -cp .:jdbc.jar CSCI3170proj`
+- `java -classpath ./mysql-jdbc.jar:./ CSCI3170Proj`
 
 ### Operations ###
 
