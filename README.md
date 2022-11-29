@@ -1,13 +1,12 @@
-# CSCI3170Project
 ## CSCI3170 Group Project
 
 ### Information ###
-**Group Number:   15**
+**Group Number:   39**
 
 Group Members:  
-- Ji Yi,      1155141508
-- Li Hangji,  1155141449
-- Yang Boyu,  1155178392
+- Bao Wenrui,      1155157220
+- Yao Shihurong,  1155
+- Zhang Juyuan,  1155160257
 
 List of files:  
 - `CSCI3170proj.java`: The main program to communicate with MySQL server
@@ -23,7 +22,7 @@ Before compilation:
 - In Line 17-19:
 ```
 String dbAddress = "jdbc:mysql://projgw.cse.cuhk.edu.hk:2633/db15";
-String dbUsername = "Group15";
+String dbUsername = "Group19";
 String dbPassword = "CSCI3170";
 ```
 - Change the above parameters to other environment
