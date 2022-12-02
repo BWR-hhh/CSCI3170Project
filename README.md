@@ -31,7 +31,7 @@ For compilation:
 - The `mysql-jdbc.jar` file should be placed in the same directory
 
 For execution:
-- `java -classpath ./mysql-jdbc.jar:./ CSCI3170Proj`
+- `java -classpath ./mysql-jdbc.jar:./ CSCI3170`
 
 ### Operations ###
 
