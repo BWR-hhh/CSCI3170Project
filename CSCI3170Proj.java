@@ -3,9 +3,7 @@ import java.sql.*;
 import java.util.*;
 import java.util.Date;
 import java.util.function.IntSupplier;
-
 import javax.management.Query;
-
 import java.text.SimpleDateFormat;
 
 class CSCI3170 {
